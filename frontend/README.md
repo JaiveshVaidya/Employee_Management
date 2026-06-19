@@ -1,16 +1,41 @@
-# React + Vite
+# Nexus Business Platform - Frontend UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folder contains the React frontend application for the Employee Management System, built with **Vite**, **React 19**, and styled with custom **Vanilla CSS**.
 
-Currently, two official plugins are available:
+It interacts with the FastAPI backend running at `http://localhost:8000`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Getting Started (Frontend)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run the frontend client locally, follow these steps:
 
-## Expanding the ESLint configuration
+### 📦 Installation
+From this directory, run:
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💻 Development Server
+Start the development server:
+```bash
+npm run dev
+```
+By default, the server will open on [http://localhost:5173](http://localhost:5173).
+
+### 🛠️ Production Build
+To compile the code and build production assets in the `dist` folder:
+```bash
+npm run build
+```
+
+### 🧹 Linting
+To check the code for syntax or formatting errors using ESLint:
+```bash
+npm run lint
+```
+
+---
+
+## 🔗 Main Project Reference
+For full system details including architecture diagram, backend setup, database seed details, and API documentation, please refer to the [Root README](../README.md).
